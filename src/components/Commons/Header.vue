@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import {ClockIcon, MagnifyingGlassIcon, BellAlertIcon} from '@heroicons/vue/24/solid'
+import {
+  ClockIcon,
+  MagnifyingGlassIcon,
+  BellAlertIcon
+} from '@heroicons/vue/24/solid'
 </script>
 
 <template>
