@@ -17,7 +17,7 @@ import SideBar from "../Commons/SideBar.vue";
 }
 
 .page {
-  @apply mt-10 bg-gray-800 rounded-2xl
+  @apply mt-10 bg-background rounded-2xl
   px-10 py-14 w-full h-auto
 }
 </style>

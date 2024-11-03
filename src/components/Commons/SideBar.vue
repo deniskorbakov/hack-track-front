@@ -50,6 +50,6 @@ import {
 }
 
 .links-item-active {
-  @apply text-violet-600
+  @apply text-primary
 }
 </style>

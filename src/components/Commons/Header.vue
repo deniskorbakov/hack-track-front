@@ -22,7 +22,7 @@ header {
 }
 
 .logo {
-  @apply size-16 text-violet-600 flex-none w-14
+  @apply size-16 text-primary flex-none w-14
 }
 
 .header-title {
@@ -30,6 +30,6 @@ header {
 }
 
 .button-create {
-  @apply bg-violet-600 px-8 py-2 rounded-2xl
+  @apply bg-primary px-8 py-2 rounded-2xl
 }
 </style>
