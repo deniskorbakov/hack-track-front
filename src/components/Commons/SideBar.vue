@@ -42,7 +42,7 @@ import {
 
 <style scoped lang="postcss">
 .links {
-  @apply mt-10 pl-1
+  @apply mt-16 pl-1
 }
 
 .links-item {
