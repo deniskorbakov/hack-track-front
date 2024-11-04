@@ -4,7 +4,7 @@ import AppLayout from "../components/Layouts/AppLayout.vue";
 <template>
   <AppLayout>
     <section>
-      this is home page
+      this is statistic page
     </section>
   </AppLayout>
 </template>
