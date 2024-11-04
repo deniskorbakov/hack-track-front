@@ -1,40 +1,18 @@
 <script setup lang="ts">
-import {
-  CubeIcon,
-  PresentationChartLineIcon,
-  CalendarDaysIcon,
-  RectangleStackIcon,
-  UserCircleIcon
-} from "@heroicons/vue/24/solid";
+
+
+import {useRouter} from "vue-router";
+
+const router = useRouter()
 </script>
 
 <template>
   <aside class="inline-block">
     <ul class="links">
-      <li class="links-item links-item-active">
-        <router-link to="/">
-          <UserCircleIcon/>
-        </router-link>
-      </li>
-      <li class="links-item">
-        <router-link to="/">
-          <CubeIcon/>
-        </router-link>
-      </li>
-      <li class="links-item">
-        <router-link to="/">
-          <PresentationChartLineIcon/>
-        </router-link>
-      </li>
-      <li class="links-item">
-        <router-link to="/">
-          <CalendarDaysIcon/>
-        </router-link>
-      </li>
-      <li class="links-item">
-        <router-link to="/">
-          <RectangleStackIcon/>
-        </router-link>
+      <li class="links-item" v-for="(item, key) in router.getRoutes()" :key="key">
+        <RouterLink :to="item.path">
+          <component :is="item.meta.icon"/>
+        </RouterLink>
       </li>
     </ul>
   </aside>
