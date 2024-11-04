@@ -1,8 +1,6 @@
 <script setup lang="ts">
-
 import AppLayout from "../components/Layouts/AppLayout.vue";
 </script>
-
 <template>
   <AppLayout>
     <section>
@@ -10,7 +8,5 @@ import AppLayout from "../components/Layouts/AppLayout.vue";
     </section>
   </AppLayout>
 </template>
-
 <style scoped>
-
 </style>
