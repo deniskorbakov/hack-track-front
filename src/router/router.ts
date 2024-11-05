@@ -17,6 +17,7 @@ const routes = [
     {
         path: "/",
         component: Home,
+        name: 'Home',
         meta: {
             icon: HomeIcon
         }
@@ -24,6 +25,7 @@ const routes = [
     {
         path: "/profile",
         component: Profile,
+        name: 'Profile',
         meta: {
             icon: UserIcon
         }
@@ -31,6 +33,7 @@ const routes = [
     {
         path: "/teams",
         component: Team,
+        name: 'Team',
         meta: {
             icon: UserGroupIcon
         }
@@ -38,6 +41,7 @@ const routes = [
     {
         path: "/tasks",
         component: Task,
+        name: 'Task',
         meta: {
             icon: RectangleStackIcon
         }
@@ -45,6 +49,7 @@ const routes = [
     {
         path: "/statistic",
         component: Statistic,
+        name: 'Statistic',
         meta: {
             icon: PresentationChartLineIcon
         }
