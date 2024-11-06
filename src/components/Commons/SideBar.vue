@@ -30,6 +30,6 @@ function isActiveLink (path: string): boolean {
   }
 
   .links__item-active {
-    @apply text-white bg-gray-200 shadow-inner shadow-md-left drop-shadow-xl rounded-lg shadow-white/70 hover:shadow-white
+    @apply text-white bg-gray-200 shadow-inner drop-shadow-xl rounded-lg shadow-white/70 hover:shadow-white
   }
 </style>
